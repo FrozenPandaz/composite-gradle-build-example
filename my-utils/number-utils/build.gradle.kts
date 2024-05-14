@@ -8,3 +8,9 @@ version = "1.0"
 repositories {
     mavenCentral()
 }
+
+allprojects {
+    apply {
+        plugin("project-report")
+    }
+}

@@ -1,0 +1,33 @@
+
+------------------------------------------------------------
+Tasks runnable from root project 'my-composite'
+------------------------------------------------------------
+
+Default tasks: run
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+wrapper - Generates Gradle wrapper files.
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'my-composite'.
+dependencies - Displays all dependencies declared in root project 'my-composite'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'my-composite'.
+help - Displays a help message.
+javaToolchains - Displays the detected java toolchains.
+kotlinDslAccessorsReport - Prints the Kotlin code for accessing the currently available project extensions and conventions.
+outgoingVariants - Displays the outgoing variants of root project 'my-composite'.
+projects - Displays the sub-projects of root project 'my-composite'.
+properties - Displays the properties of root project 'my-composite'.
+resolvableConfigurations - Displays the configurations that can be resolved in root project 'my-composite'.
+tasks - Displays the tasks runnable from root project 'my-composite'.
+
+Reporting tasks
+---------------
+projectReport - Generates a report about your project.
+
+To see all tasks and more detail, run gradlew tasks --all
+
+To see more detail about a task, run gradlew help --task <task>

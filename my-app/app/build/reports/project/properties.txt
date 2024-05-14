@@ -1,0 +1,133 @@
+
+------------------------------------------------------------
+Project ':app'
+------------------------------------------------------------
+
+allprojects: [project ':app']
+ant: org.gradle.api.internal.project.DefaultAntBuilder@75a9d123
+antBuilderFactory: org.gradle.api.internal.project.DefaultAntBuilderFactory@2fe9c559
+application: extension 'application'
+applicationDefaultJvmArgs: []
+applicationDistribution: org.gradle.api.internal.file.copy.DefaultCopySpec_Decorated@68e47533
+applicationName: app
+archivesBaseName: app
+artifacts: org.gradle.api.internal.artifacts.dsl.DefaultArtifactHandler_Decorated@451c9466
+asDynamicObject: DynamicObject for project ':app'
+autoTargetJvmDisabled: false
+base: extension 'base'
+baseClassLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@7e07652f
+buildDir: /home/jason/projects/triage/composite-gradle-build-example/my-app/app/build
+buildFile: /home/jason/projects/triage/composite-gradle-build-example/my-app/app/build.gradle.kts
+buildPath: :
+buildScriptSource: org.gradle.groovy.scripts.TextResourceScriptSource@1f25b4bb
+buildTreePath: :app
+buildscript: org.gradle.api.internal.initialization.DefaultScriptHandler_Decorated@54231781
+childProjects: {}
+childProjectsUnchecked: {}
+class: class org.gradle.api.internal.project.DefaultProject_Decorated
+classLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@1b0f120b
+clean: task ':app:clean'
+compileJava: task ':app:compileJava'
+compileTestJava: task ':app:compileTestJava'
+components: SoftwareComponent container
+configurationActions: org.gradle.configuration.project.DefaultProjectConfigurationActionContainer@75bd06c7
+configurationTargetIdentifier: org.gradle.configuration.ConfigurationTargetIdentifier$1@30563b42
+configurations: configuration container
+convention: org.gradle.internal.extensibility.DefaultConvention@2e4c19f
+conventionMapping: org.gradle.internal.extensibility.ConventionAwareHelper@4e37515d
+crossProjectModelAccess: org.gradle.api.internal.project.DefaultCrossProjectModelAccess@5321fd62
+defaultArtifacts: extension 'defaultArtifacts'
+defaultTasks: []
+deferredProjectConfiguration: org.gradle.api.internal.project.DeferredProjectConfiguration@52ac506f
+dependencies: org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler_Decorated@76e08b9c
+dependencyFactory: org.gradle.api.internal.artifacts.DefaultDependencyFactory@22991a4
+dependencyLocking: org.gradle.internal.locking.DefaultDependencyLockingHandler_Decorated@5ebfa66e
+dependencyMetaDataProvider: org.gradle.internal.service.scopes.ProjectScopeServices$ProjectBackedModuleMetaDataProvider@6ea0bafe
+dependencyReport: task ':app:dependencyReport'
+depth: 1
+description: null
+detachedState: false
+displayName: project ':app'
+distributions: Distribution container
+distsDirName: distributions
+distsDirectory: extension 'base' property 'distsDirectory'
+docsDir: /home/jason/projects/triage/composite-gradle-build-example/my-app/app/build/docs
+docsDirName: docs
+executableDir: bin
+ext: org.gradle.internal.extensibility.DefaultExtraPropertiesExtension@1cee70dd
+extensions: org.gradle.internal.extensibility.DefaultConvention@2e4c19f
+fileOperations: org.gradle.api.internal.file.DefaultFileOperations@52846655
+fileResolver: org.gradle.api.internal.file.BaseDirFileResolver@712b26bd
+gradle: build 'my-app'
+gradleKotlinDsl.projectAccessorsClassPath: AccessorsClassPath(bin=[/home/jason/.gradle/caches/8.7/kotlin-dsl/accessors/0acd6831a52dd07f50d20df217f61283/classes], src=[/home/jason/.gradle/caches/8.7/kotlin-dsl/accessors/0acd6831a52dd07f50d20df217f61283/sources])
+group: org.sample
+htmlDependencyReport: task ':app:htmlDependencyReport'
+identityPath: :app
+inheritedScope: org.gradle.internal.extensibility.ExtensibleDynamicObject$InheritedDynamicObject@1ab7052c
+internalStatus: property(java.lang.Object, fixed(class java.lang.String, integration))
+java: extension 'java'
+javaToolchains: extension 'javaToolchains'
+layout: org.gradle.api.internal.file.DefaultProjectLayout@4f78012
+libsDirName: libs
+libsDirectory: extension 'base' property 'libsDirectory'
+listenerBuildOperationDecorator: org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator@2c4140ff
+logger: org.gradle.internal.logging.slf4j.OutputEventListenerBackedLogger@280c1d74
+logging: org.gradle.internal.logging.services.DefaultLoggingManager@e7dbe3e
+mainClassName: null
+model: project ':app'
+modelIdentityDisplayName: null
+modelRegistry: org.gradle.model.internal.registry.DefaultModelRegistry@7c8ea0c0
+name: app
+normalization: org.gradle.normalization.internal.DefaultInputNormalizationHandler_Decorated@44414853
+objects: org.gradle.api.internal.model.DefaultObjectFactory@6221be9c
+owner: project ':app'
+parent: root project 'my-app'
+parentIdentifier: root project 'my-app'
+path: :app
+pluginContext: false
+pluginManager: org.gradle.api.internal.plugins.DefaultPluginManager_Decorated@1ce70a8
+plugins: [org.gradle.api.plugins.HelpTasksPlugin$Inject@3cf8708d, org.gradle.buildinit.plugins.BuildInitPlugin$Inject@7a45c457, org.gradle.buildinit.plugins.WrapperPlugin$Inject@78ad0400, org.gradle.language.base.plugins.LifecycleBasePlugin$Inject@2175f014, org.gradle.api.plugins.BasePlugin$Inject@154ad403, org.gradle.api.plugins.JvmEcosystemPlugin$Inject@5501e4c3, org.gradle.api.plugins.ReportingBasePlugin$Inject@25f46d9, org.gradle.api.plugins.JvmToolchainsPlugin$Inject@7ed12cfa, org.gradle.api.plugins.JavaBasePlugin$Inject@2acef36a, org.gradle.testing.base.plugins.TestSuiteBasePlugin$Inject@69de243e, org.gradle.api.plugins.JvmTestSuitePlugin$Inject@731a4136, org.gradle.api.plugins.JavaPlugin$Inject@2cab70d8, org.gradle.api.distribution.plugins.DistributionPlugin$Inject@55231391, org.gradle.api.plugins.ApplicationPlugin$Inject@2f654253, org.gradle.kotlin.dsl.provider.plugins.KotlinScriptBasePlugin$Inject@1e7dac4d, org.gradle.api.plugins.ProjectReportsPlugin$Inject@aef145a]
+processOperations: org.gradle.process.internal.DefaultExecActionFactory$DecoratingExecActionFactory@84f58f1
+project: project ':app'
+projectConfigurator: org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator@46028a7b
+projectDir: /home/jason/projects/triage/composite-gradle-build-example/my-app/app
+projectEvaluationBroadcaster: ProjectEvaluationListener broadcast
+projectEvaluator: org.gradle.configuration.project.LifecycleProjectEvaluator@29b80979
+projectPath: :app
+projectReport: task ':app:projectReport'
+projectReportDir: /home/jason/projects/triage/composite-gradle-build-example/my-app/app/build/reports/project
+projectReportDirName: project
+projects: [project ':app']
+properties: {...}
+propertyReport: task ':app:propertyReport'
+providers: org.gradle.api.internal.provider.DefaultProviderFactory_Decorated@5b8177d6
+publicType: org.gradle.api.plugins.ApplicationPluginConvention
+reporting: extension 'reporting'
+repositories: repository container
+resources: org.gradle.api.internal.resources.DefaultResourceHandler@297b2487
+rootDir: /home/jason/projects/triage/composite-gradle-build-example/my-app
+rootProject: root project 'my-app'
+rootScript: false
+script: false
+scriptHandlerFactory: org.gradle.api.internal.initialization.DefaultScriptHandlerFactory@7b782281
+scriptPluginFactory: org.gradle.configuration.ScriptPluginFactorySelector@12621f56
+serviceRegistryFactory: org.gradle.internal.service.scopes.BuildScopeServiceRegistryFactory@420df50b
+services: Project services
+sourceCompatibility: 17
+sourceSets: SourceSet container
+standardOutputCapture: org.gradle.internal.logging.services.DefaultLoggingManager@e7dbe3e
+state: project state 'EXECUTED'
+status: integration
+subprojects: []
+targetCompatibility: 17
+taskDependencyFactory: org.gradle.api.internal.tasks.DefaultTaskDependencyFactory@32a2aed1
+taskReport: task ':app:taskReport'
+taskThatOwnsThisObject: null
+tasks: task set
+testReportDir: /home/jason/projects/triage/composite-gradle-build-example/my-app/app/build/reports/tests
+testReportDirName: tests
+testResultsDir: /home/jason/projects/triage/composite-gradle-build-example/my-app/app/build/test-results
+testResultsDirName: test-results
+testing: extension 'testing'
+version: 1.0
+versionCatalogs: extension 'versionCatalogs'
