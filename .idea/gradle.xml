@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/my-app" name="my-app">
+                <projects>
+                  <project path="$PROJECT_DIR$/my-app" />
+                  <project path="$PROJECT_DIR$/my-app/app" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/my-utils" name="my-utils">
+                <projects>
+                  <project path="$PROJECT_DIR$/my-utils" />
+                  <project path="$PROJECT_DIR$/my-utils/number-utils" />
+                  <project path="$PROJECT_DIR$/my-utils/string-utils" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/my-app" />
+            <option value="$PROJECT_DIR$/my-app/app" />
+            <option value="$PROJECT_DIR$/my-utils" />
+            <option value="$PROJECT_DIR$/my-utils/number-utils" />
+            <option value="$PROJECT_DIR$/my-utils/string-utils" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
